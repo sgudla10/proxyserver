@@ -1,0 +1,25 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "proxy server assignment for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- --optional strict --log --stage 1 -- index.js --host=127.0.0.1 --port 8002"
+  },
+  
+ "repository": {
+"type": "git",
+"url": "https://github.com/JJ-C"
+},
+
+"keywords": [
+    "proxy",
+    "swati"
+  ],
+  "author": "swati gudla",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.61.0",
+    "yargs": "^3.21.0"
+  }
+}
